@@ -10133,3 +10133,21 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+@media (max-width: 992px) {
+  .language-big {
+    display: none;
+  }
+  .language-small {
+    display: inline;
+  }
+}
+
+@media (min-width: 992px) {
+  .language-small {
+    display: none;
+  }
+  .language-big {
+    display: inline;
+  }
+}
