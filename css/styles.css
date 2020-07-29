@@ -10151,3 +10151,7 @@ section.resume-section .resume-section-content {
     display: inline;
   }
 }
+
+.skills {
+  color: var(--secondary);
+}
